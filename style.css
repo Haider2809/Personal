@@ -1,0 +1,80 @@
+
+/* Css New content
+justify-content is content that is used to move item in horizontal way
+flex-start used to put on left side of the container
+flex-end used to put items at right side
+center used to put items at center
+space-between items with equal spacing
+space-around item equal space around them
+*/
+.name{
+  font-size: 40px;
+  background-color: pink;
+  padding: 0.05px;
+  opacity: 50%;
+  border-radius: 20%;
+}
+header{
+background-color: LightBlue;
+}
+.surname{
+  font-size: 40px;
+  background-color: pink;
+  padding: 0.05px;
+
+}
+.scroll{
+  padding: 5px;
+
+
+}
+.Work{
+  background-color: Grey;
+  padding-bottom: 40px;
+}
+.Experience{
+  background-color: white;
+  width: 250px;
+  padding: 15px;
+}
+.Experience2{
+  background-color: white;
+  width: 250px;
+  padding: 15px;
+}
+.position{
+ display: flex;
+ justify-content: space-evenly;
+}
+.Registery{
+  border: 1px solid black;
+  display: flex;
+}
+.contact{
+  border:0.5px solid Blue;
+  margin-left: 30px;
+}
+.contact:hover{
+  cursor: pointer;
+  background-color: LightBlue;
+  transition: 0.2s;
+}
+.Video{
+  display:flex;
+  justify-content: space-around;
+  left: 20%;
+}
+.digital{
+  background-color: red;
+}
+.maps{
+  background-color: orange;
+  margin-left: 30px;
+}
+#maps{
+    display: none;
+}
+.logos{
+  display: flex;
+  justify-content: space-evenly;
+}
